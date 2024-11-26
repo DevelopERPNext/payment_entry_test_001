@@ -1,0 +1,34 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "module": "Payment Entry Test 001",
+    "name": "mode_of_payment_a_001",
+    "fieldname": "mode_of_payment_a_001",
+    "fieldtype": "Select",
+    "label": "Mode Of Payment",
+    "insert_after": "company",
+    "options": "\nنقداً\nفيزا",
+    "fetch_from": "",
+    "fetch_if_empty": 0,
+    "in_list_view": 1,
+    "reqd": 0,
+    "read_only": 0,
+    "sync_on_migrate": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Customer",
+    "module": "Payment Entry Test 001",
+    "name": "c_r_n_o_a_001",
+    "fieldname": "c_r_n_o_a_001",
+    "fieldtype": "Data",
+    "label": "C.R N.O",
+    "insert_after": "tax_id",
+    "fetch_if_empty": 0,
+    "in_list_view": 0,
+    "reqd": 0,
+    "read_only": 0,
+    "sync_on_migrate": 1
+  }
+]
