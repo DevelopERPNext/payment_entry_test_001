@@ -227,3 +227,51 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+
+
+# ================================  Adding =====================================
+
+
+app_include_css = "/assets/payment_entry_test_001/css/font_style.css"
+
+
+# override_doctype_class = {
+#     "Work Order": "payment_entry_test_001.overrides.work_order.CustomWorkOrder",
+# }
+
+
+doc_events = {
+    "Sales Invoice": {
+        # "validate": [
+        "on_submit": [
+            "payment_entry_test_001.payment_entry_test_001.payment_entry_py.create_payment_entry_from_sales_invoice",
+            # "payment_entry_test_001.payment_entry_test_001.payment_entry_py.create_print_msg",
+        ],
+        "validate": [
+            "payment_entry_test_001.payment_entry_test_001.payment_entry_py.update_expense_account_on_return_sales",
+            # "payment_entry_test_001.payment_entry_test_001.payment_entry_py.create_print_msg",
+        ],
+    },
+    "Purchase Invoice": {
+        "validate": [
+            "payment_entry_test_001.payment_entry_test_001.payment_entry_py.update_expense_account_on_return_purchase",
+        ],
+    },
+}
+
+
+doctype_js = {
+    "Sales Invoice": "public/js/payment_entry_js.js",
+    "Purchase Receipt": "public/js/payment_entry_js.js",
+}
+
+
+doctype_list_js = {
+    "Sales Invoice": "public/js/payment_entry_js.js",
+}
+
+# Payment Entry Test 001
+# payment_entry_test_001
+
+fixtures = [{"dt": "Custom Field", "filters": [["module", "=", "Payment Entry Test 001"]]}]

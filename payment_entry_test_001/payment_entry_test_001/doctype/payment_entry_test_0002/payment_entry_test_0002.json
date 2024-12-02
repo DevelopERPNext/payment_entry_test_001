@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-02 13:07:20.182372",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "default_cash_account_payment_a_001",
+  "column_break_duyp",
+  "default_visa_account_payment_a_001",
+  "section_break_bvlr",
+  "expense_account_on_return_purchase_a_001",
+  "column_break_efwe",
+  "income_account_on_return_sales_a_001"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_cash_account_payment_a_001",
+   "fieldtype": "Link",
+   "label": "Default Cash Account Mode Of Payment",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_duyp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "default_visa_account_payment_a_001",
+   "fieldtype": "Link",
+   "label": "Default Visa Account Mode Of Payment",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_bvlr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "expense_account_on_return_purchase_a_001",
+   "fieldtype": "Link",
+   "label": "Expense Account On Return Purchase",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_efwe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "income_account_on_return_sales_a_001",
+   "fieldtype": "Link",
+   "label": "Income Account On Return Sales",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-02 14:29:59.310585",
+ "modified_by": "Administrator",
+ "module": "Payment Entry Test 001",
+ "name": "payment_entry_test_0002",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
