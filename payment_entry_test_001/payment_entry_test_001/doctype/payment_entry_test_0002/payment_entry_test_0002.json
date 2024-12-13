@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-02 13:07:20.182372",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "account_mode_of_payment_section",
+  "default_cash_account_payment_a_001",
+  "column_break_duyp",
+  "default_visa_account_payment_a_001",
+  "section_break_bvlr",
+  "expense_account_on_return_purchase_a_001",
+  "column_break_efwe",
+  "income_account_on_return_sales_a_001",
+  "section_break_ertp",
+  "cash_sales_a_001",
+  "export_sales_a_001",
+  "column_break_mfja",
+  "credit_sales_a_001",
+  "purchase_invoice_section",
+  "account_purchase_invoice_for_table_items_a_001"
+ ],
+ "fields": [
+  {
+   "fieldname": "default_cash_account_payment_a_001",
+   "fieldtype": "Link",
+   "label": "Default Cash Account Mode Of Payment",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_duyp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "default_visa_account_payment_a_001",
+   "fieldtype": "Link",
+   "label": "Default Visa Account Mode Of Payment",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_bvlr",
+   "fieldtype": "Section Break",
+   "label": "Return"
+  },
+  {
+   "fieldname": "expense_account_on_return_purchase_a_001",
+   "fieldtype": "Link",
+   "label": "Expense Account On Return Purchase",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_efwe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "income_account_on_return_sales_a_001",
+   "fieldtype": "Link",
+   "label": "Income Account On Return Sales",
+   "options": "Account"
+  },
+  {
+   "fieldname": "section_break_ertp",
+   "fieldtype": "Section Break",
+   "label": "Sales Invoice"
+  },
+  {
+   "fieldname": "cash_sales_a_001",
+   "fieldtype": "Link",
+   "label": "Cash Sales",
+   "options": "Account"
+  },
+  {
+   "fieldname": "column_break_mfja",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_sales_a_001",
+   "fieldtype": "Link",
+   "label": "Credit Sales",
+   "options": "Account"
+  },
+  {
+   "fieldname": "export_sales_a_001",
+   "fieldtype": "Link",
+   "label": "Export Sales",
+   "options": "Account"
+  },
+  {
+   "fieldname": "account_mode_of_payment_section",
+   "fieldtype": "Section Break",
+   "label": "Account Mode Of Payment"
+  },
+  {
+   "fieldname": "purchase_invoice_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Purchase Invoice"
+  },
+  {
+   "fieldname": "account_purchase_invoice_for_table_items_a_001",
+   "fieldtype": "Link",
+   "label": "Account Purchase Invoice for table  Items ",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-12-13 15:52:57.032572",
+ "modified_by": "Administrator",
+ "module": "Payment Entry Test 001",
+ "name": "payment_entry_test_0002",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
