@@ -1,0 +1,35 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-15 11:28:55.055984",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "select_a_account_purchase_invoice_for_child_table_items_a_001"
+ ],
+ "fields": [
+  {
+   "fieldname": "select_a_account_purchase_invoice_for_child_table_items_a_001",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Select Account Purchase Invoice for Child table Items",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-15 11:33:06.777264",
+ "modified_by": "Administrator",
+ "module": "Payment Entry Test 001",
+ "name": "payment_entry_test_0003",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

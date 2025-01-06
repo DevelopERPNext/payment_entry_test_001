@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-17 10:07:35.187176",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "warehouse",
+  "column_break_vcvs",
+  "quantity_available",
+  "reserved_quantity"
+ ],
+ "fields": [
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "warehouse",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "column_break_vcvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "quantity_available",
+   "fieldtype": "Float",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "quantity_available"
+  },
+  {
+   "fieldname": "reserved_quantity",
+   "fieldtype": "Float",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "reserved_quantity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-17 10:12:24.964166",
+ "modified_by": "Administrator",
+ "module": "Payment Entry Test 001",
+ "name": "item_stock_details_test_0004",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
